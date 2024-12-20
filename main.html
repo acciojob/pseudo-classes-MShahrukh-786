@@ -8,6 +8,41 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<!DOCTYPE html>
+
+<html>
+
+<head>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<div id="container">
+		This is the main container element
+	</div>
+    <script type="text/javascript" src="./script.js">
+</script>
+
+</body>
+
+</html>
+
+#container{
+	margin:20px;
+}
+
+#container::before{
+	content:"Before Element";
+	color:#f00;
+	font-size:20px;
+}
+
+
+#container::after{
+	content:"After Element";
+	color:#f00;
+	font-size:20px;
+}
     <script type="text/javascript" src="./script.js">
 </script>
 
